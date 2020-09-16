@@ -6,7 +6,7 @@ $my_message = "Today is " . date("m/d/y");
 <html lang="en">
 <head>
 	<title>Colin Fotheringham's Home Page</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="../index.css">
 </head>
 <body>
 <h1> Welcome to Colin Fotheringham's Home Page</h1>
@@ -15,7 +15,7 @@ $my_message = "Today is " . date("m/d/y");
 </div>
 <hr>
 <div class="box">
-<img height= "400" width = "400" src="pictures/me.jpg" alt="An image of Colin Fotheringham">
+<img height= "400" width = "400" src="../pictures/me.jpg" alt="An image of Colin Fotheringham">
 </div>
 <div class = "text">
 	<p> Hello, my name is Colin Fotheringham; I am from Virginia. My major is <strong>software engineering.</strong> I enjoy playing basketball, cooking, and spending time with my family. </p>
