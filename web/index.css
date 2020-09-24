@@ -1,6 +1,6 @@
 
 Html {
-	background-color: #a28f6a;
+	background-color: #bbaa8a;
 }
 h1 {
 	text-align: center;
@@ -27,7 +27,7 @@ hr { background-color: black; height: 1px; border: 0; }
 
 .text p:hover {
 	font-weight: bold;
-	color: darkmagenta;
+	
 }
 .quote {
 	text-align: center;
@@ -38,7 +38,7 @@ hr { background-color: black; height: 1px; border: 0; }
 .quote blockquote:hover 
 {
 	font-weight: bold;
-	color: darkmagenta;
+	
 }
 
 .right
