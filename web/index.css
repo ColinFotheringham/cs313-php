@@ -14,6 +14,7 @@ h1 {
 	
    	
 }
+hr { background-color: black; height: 1px; border: 0; }
 .box img {
 	border: 5px solid;
 }
