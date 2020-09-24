@@ -1,6 +1,8 @@
 <?php
 $my_message = "Today is " . date("m/d/y");
 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,4 +33,3 @@ $my_message = "Today is " . date("m/d/y");
 
 </body>
 </html>
-?>
