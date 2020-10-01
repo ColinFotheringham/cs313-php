@@ -21,9 +21,9 @@ $comments = htmlspecialchars($_POST["comments"]);
         <h4>Email: </h4>
         <a href="mailto:<?=$email ?>"> <?=$email ?> </a> 
 
-        <h4> Major <?=$major ?></h4>
+        <h4> Major: <?=$major ?></h4>
        
-        <h4>comments: <?=$comments ?> </h4>
+        <h4>Comments: <?=$comments ?> </h4>
      
        
         <h4> This user has visited:</h4>
@@ -31,10 +31,12 @@ $comments = htmlspecialchars($_POST["comments"]);
         
         $N = count($acountry);
 
+        echo("Number of places: " . $N);
+
         for($i=0; $i < $N; $i++)
         {
           $place_clean = htmlspecialchars($acountry);
-          echo($place_clean[$i] . " ");
+          echo "<li><p>$place_clean</p></li>";
         }
 
     
