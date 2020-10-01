@@ -22,15 +22,21 @@
         <?php echo $_POST["radio"];?>
         <h4>comments</h4>
         <?php echo $_POST["comments"];?>
-        <h4>comments</h4>
-        <?php echo $_POST["comments"];?>
-<h4> This user has visited:</h4>
-<?php echo $_POST["North America"];?>
-<?php echo $_POST["South America"];?>
-<?php echo $_POST["Europe"];?>
-<?php echo $_POST["Africa"];?>
-<?php echo $_POST["Asia"];?>
-<?php echo $_POST["Australia"];?>
-<?php echo $_POST["Antarctica"];?>
-</body>
-</html>
+       
+        <h4> This user has visited:</h4>
+        <?php $acountry = echo $_POST["continents"];
+        if(empty($acountry)) 
+         {
+            echo("You didn't select any countries.");
+        } 
+        
+        $N = count($acountry);
+
+        for($i=0; $i < $N; $i++)
+        {
+          echo($aDoor[$i] . " ");
+        }
+
+  ?>
+        </body>
+        </html>
