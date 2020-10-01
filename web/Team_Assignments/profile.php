@@ -23,11 +23,11 @@ $comments = htmlspecialchars($_POST["comments"]);
 
         <h4> Major <?=$major ?></h4>
        
-        <h4>comments <?=$comments ?> </h4>
+        <h4>comments: <?=$comments ?> </h4>
      
        
         <h4> This user has visited:</h4>
-        <?php $acountry = htmlspecialchars(echo $_POST["continents"]);
+        <?php $acountry = htmlspecialchars($_POST["continents"]);
         
         $N = count($acountry);
 
