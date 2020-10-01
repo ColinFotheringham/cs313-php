@@ -20,12 +20,7 @@
        
         <h4> This user has visited:</h4>
         <?php $acountry = echo $_POST["continents"];
-        if(empty($acountry)) 
-         {
-            echo("You didn't select any countries.");
-        } 
-        else
-        {
+        
         $N = count($acountry);
 
         for($i=0; $i < $N; $i++)
@@ -33,7 +28,7 @@
           echo($acountry[$i] . " ");
         }
 
-    }
+    
         ?>
 
         </body>
