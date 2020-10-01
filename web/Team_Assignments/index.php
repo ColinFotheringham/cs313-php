@@ -19,6 +19,35 @@
         <input type="radio" name="radio" value="Computer Engineering">Computer Engineering
         <h4>comments</h4>
        <textarea name="comments" form="form1"  rows="4" cols="50"></textarea>
+
+<input type="checkbox" id="North America" name="North America" value="North America">
+  <label for="NorthAmerica"> North America </label><br>
+
+
+  <input type="checkbox" id="South America" name="South America" value="South America">
+  <label for="South America"> South America </label><br>
+
+  
+<input type="checkbox" id="Europe" name="Europe" value="Europe">
+  <label for="Europe">Europe </label><br>
+
+  
+<input type="checkbox" id="Africa" name="Africa" value="Africa">
+  <label for="Africa">Africa </label><br>
+
+  
+<input type="checkbox" id="Asia" name="Asia" value="Asia">
+  <label for="Asia"> Asia </label><br>
+
+
+  
+<input type="checkbox" id="Australia" name="Australia" value="Australia">
+  <label for="Australia"> Australia </label><br>
+
+
+  
+<input type="checkbox" id="Antarctica" name="Antarctica" value="Antarctica">
+  <label for="Antarctica"> Antarctica </label><br>
        <input type="submit">
     </form>
 </body>
