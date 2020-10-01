@@ -71,11 +71,6 @@ session_start();
 	</div>
 	</div>
 </form>
-<br>
 
-<hr>
-<div>
-<?= $my_message; ?>
-</div>
 </body>
 </html>
