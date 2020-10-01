@@ -36,7 +36,8 @@ $comments = htmlspecialchars($_POST["comments"]);
         for($i=0; $i < $N; $i++)
         {
           $place_clean = htmlspecialchars($acountry);
-          echo "<li><p>$place_clean</p></li>";
+          
+          echo($place_clean[$i] . " ");
         }
 
     
