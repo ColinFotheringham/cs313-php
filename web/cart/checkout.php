@@ -13,7 +13,7 @@ session_start();
 </head>
 <body>
 <div class="topnav">
-	<a href="https://guarded-anchorage-19071.herokuapp.com/">Colin's Homepage</a>
+	<a href="https://guarded-coast-59727.herokuapp.com/">Colin's Homepage</a>
 	<a class="active" href="checkout.php">Check Out</a>
 	<a href="viewCart.php">View Cart</a>
 	<a href="shoppingCart.php">Home</a>

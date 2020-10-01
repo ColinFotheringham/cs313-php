@@ -13,7 +13,7 @@ session_start();
 </head>
 <body>
 <div class="topnav">
-	<a href="https://guarded-anchorage-19071.herokuapp.com/">Colin's Homepage</a>
+	<a href="https://guarded-coast-59727.herokuapp.com/">Colin's Homepage</a>
 	<a href="checkout.php">Check Out</a>
 	<a class="active" href="viewCart.php">View Cart</a>
 	<a href="shoppingCart.php">Home</a>
@@ -48,7 +48,6 @@ $_SESSION["laptop"] += -1;
                 <input type="submit" name="keyboard" value="Remove from cart"/>
                 <hr>
                 Laptop $900.00
-                +
                 <p>Quantity: <?php echo $_SESSION["laptop"]; ?></p>
                 <input type="submit" name="laptop" value="Remove from cart"/>
                 <hr>

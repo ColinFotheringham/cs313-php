@@ -11,14 +11,13 @@ session_start();
 </head>
 <body>
 <div class="topnav">
-	<a href="https://guarded-anchorage-19071.herokuapp.com/">Colin's Homepage</a>
+	<a href="https://guarded-coast-59727.herokuapp.com/">Colin's Homepage</a>
 	<a href="checkout.php">Check Out</a>
 	<a href="viewCart.php">View Cart</a>
 	<a class="active" href="shoppingCart.php">Home</a>
   </div>
   <h1> Electronic Store </h1>
   <?php
-    $my_message = "Today is " . date("m/d/y");
             if(isset($_POST['computer'])) { 
             $_SESSION["computer"] += 1;
             } 
@@ -71,6 +70,5 @@ session_start();
 	</div>
 	</div>
 </form>
-
 </body>
 </html>
