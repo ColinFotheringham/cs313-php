@@ -24,7 +24,8 @@
          {
             echo("You didn't select any countries.");
         } 
-        
+        else
+        {
         $N = count($acountry);
 
         for($i=0; $i < $N; $i++)
@@ -32,6 +33,8 @@
           echo($acountry[$i] . " ");
         }
 
-  ?>
+    }
+        ?>
+
         </body>
         </html>
