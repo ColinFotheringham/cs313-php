@@ -4,6 +4,7 @@ $name = htmlspecialchars($_POST["name"]);
 $email = htmlspecialchars($_POST["email"]);
 $major = htmlspecialchars($_POST["radio"]);
 $comments = htmlspecialchars($_POST["comments"]);
+$places = $_POST["continents"];
 ?>
 
 <!DOCTYPE html>
@@ -27,20 +28,13 @@ $comments = htmlspecialchars($_POST["comments"]);
      
        
         <h4> This user has visited:</h4>
-        <?php $acountry = $_POST["continents"];
+        <?
         
-        $N = count($acountry);
-
-        echo("Number of places: " . $N);
-
-        for($i=0; $i < $N; $i++)
-        {
-          $acountry = $_POST["continents"];
-          $place_clean = htmlspecialchars($acountry);
-          
-          echo($place_clean[$i] . " ");
-        }
-
+        foreach ($places as $place)
+    {
+	$place_clean = htmlspecialchars($place);
+	echo "<li><p>$place_clean</p></li>";
+    }
     
         ?>
 
