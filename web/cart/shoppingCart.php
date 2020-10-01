@@ -7,7 +7,7 @@ session_start();
 <html lang="en">
 <head>
 	<title>PHP Shopping Cart</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="cart.css">
 </head>
 <body>
 <div class="topnav">
