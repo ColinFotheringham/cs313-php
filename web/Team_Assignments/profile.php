@@ -8,24 +8,27 @@
 <body>
     
         <h4>Name: </h4> 
-        <p><?php echo $_POST["name"];?></p>
+        
+        <p><?php 
+        htmlspecialchars(echo $_POST["name"]);?> </p>
      
         <h4>Email: </h4>
-        <a href="mailto:<?php echo $_POST["email"];?>"> <?php echo $_POST["email"];?> </a> 
+        <a href="mailto:<?php htmlspecialchars( echo $_POST["email"]); ?>"> <?php htmlspecialchars(echo $_POST["email"]);?> </a> 
 
         <h4> Major </h4>
-        <?php echo $_POST["radio"];?>
+        <?php htmlspecialchars(echo $_POST["radio"]);?>
         <h4>comments</h4>
-        <?php echo $_POST["comments"];?>
+        <?php htmlspecialchars(echo $_POST["comments"]);?>
        
         <h4> This user has visited:</h4>
-        <?php $acountry = echo $_POST["continents"];
+        <?php $acountry = htmlspecialchars (echo $_POST["continents"]);
         
         $N = count($acountry);
 
         for($i=0; $i < $N; $i++)
         {
-          echo($acountry[$i] . " ");
+          $place_clean = htmlspecialchars($acountry);
+          echo($place_clean[$i] . " ");
         }
 
     
