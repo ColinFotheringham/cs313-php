@@ -27,7 +27,7 @@ $comments = htmlspecialchars($_POST["comments"]);
      
        
         <h4> This user has visited:</h4>
-        <?php $acountry = htmlspecialchars($_POST["continents[]"]);
+        <?php $acountry = $_POST["continents"];
         
         $N = count($acountry);
 
