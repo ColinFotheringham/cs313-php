@@ -46,8 +46,8 @@
         </div>
         <br>';
 
-       // echo '<p>' . $recipe_name . "</p>";
-       // echo '<a href = "page.php?recipe=' . $recipe_name . '&id=' . $id . '"> <img src="' . $image .'"height="200px"; width="300px";></a>';
+        echo '<p>' . $recipe_name . "</p>";
+        echo '<a href = "page.php?recipe=' . $recipe_name . '&id=' . $id . '"> <img src="' . $image .'"height="200px"; width="300px";></a>';
         
     }
     foreach ($num / 4 as $value)
