@@ -13,6 +13,7 @@ $my_message = "Today is " . date("m/d/y");
 <h1> Welcome to Colin Fotheringham's Home Page</h1>
 <div class="head">
 <p><a href="cart/shoppingCart.php">CS 313 Shopping cart</a></p>
+<p><a href="recipe/family_recipes.php">Family Recipes Project</a></p>
 </div>
 <hr>
 <div class="box">
