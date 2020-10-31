@@ -10,6 +10,7 @@ session_start();
 	<link rel="stylesheet" type="text/css" href="cart.css">
 </head>
 <body>
+   <!-- this is where ill put the content -->
 <div class="topnav">
 	<a href="https://guarded-coast-59727.herokuapp.com/">Colin's Homepage</a>
 	<a href="checkout.php">Check Out</a>

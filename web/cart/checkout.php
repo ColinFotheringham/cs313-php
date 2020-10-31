@@ -12,6 +12,7 @@ session_start();
     <link rel="stylesheet" type="text/css" href="cart.css">
 </head>
 <body>
+
 <div class="topnav">
 	<a href="https://guarded-coast-59727.herokuapp.com/">Colin's Homepage</a>
 	<a class="active" href="checkout.php">Check Out</a>
@@ -20,6 +21,7 @@ session_start();
   </div>
     <h1>Enter your address information for checkout:</h1>
    <br>
+   <!-- this is where ill put the content -->
  <form action="confirmation.php" method="post" style="text-align: center;">
                 Street: <input type="text" name="street"><br><br>
                 City: <input type="text" name="city"><br><br>
